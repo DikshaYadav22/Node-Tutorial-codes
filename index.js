@@ -1,6 +1,10 @@
+/** created package.json file and adding new modules */
 
-
-
+/** Installed color console package */
+const colors = require('colors');
+console.log("node js is awesome".trap);
+// console.log("node js rocks".inverse);
+// console.log("my learning path".rainbow);
 
 
 // to create a server in nodejs
