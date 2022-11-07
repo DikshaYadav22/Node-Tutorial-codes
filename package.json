@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/DikshaYadav22/Node-Tutorial-codes/issues"
   },
-  "homepage": "https://github.com/DikshaYadav22/Node-Tutorial-codes#readme"
+  "homepage": "https://github.com/DikshaYadav22/Node-Tutorial-codes#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

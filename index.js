@@ -1,11 +1,16 @@
-// to create a server in nodejs
-const http = require('http');
 
-const serve = (req, res) => {
-    res.write("<h1>development rocks here!</h1>");
-    res.end();
-}
-http.createServer(serve).listen(3500);
+
+
+
+
+// to create a server in nodejs
+// const http = require('http');
+
+// const serve = (req, res) => {
+//     res.write("<h1>development rocks here!</h1>");
+//     res.end();
+// }
+// http.createServer(serve).listen(3500);
 
 
 
@@ -20,7 +25,7 @@ http.createServer(serve).listen(3500);
 
 
 
-
+/** how to check current directory and filename using filesystem */
 // const fs = require('fs');
 // console.log("-->>", __filename);
 // console.log("->>", __dirname);
@@ -44,11 +49,12 @@ http.createServer(serve).listen(3500);
 
 
 
-
+/** how to import another file in nodejs */
 
 // const app = require('./app');
 // console.log(app.printFullName());
 
+/*** working of loops in node */
 // let a = 10;
 // let b = 20; 
 // let c = 30;
