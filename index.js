@@ -1,8 +1,17 @@
+/** installed another package  -- chalk */
+
+const chalk=require("chalk");
+console.log(chalk.green(
+	'I am a green line ' +
+	chalk.red.underline.bold('with a red substring') +
+	' that becomes green again!'));
+// console.log(chalk.blue("hello")+ " wow its working " + chalk.yellow.bgRed.bold("so nice"));
+
 /** created package.json file and adding new modules */
 
 /** Installed color console package */
-const colors = require('colors');
-console.log("node js is awesome".trap);
+// const colors = require('colors');
+// console.log("node js is awesome".trap);
 // console.log("node js rocks".inverse);
 // console.log("my learning path".rainbow);
 
